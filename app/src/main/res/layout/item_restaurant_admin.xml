@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_Restaurants"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        app:cardBackgroundColor="#F8F8F8"
+        app:cardCornerRadius="8dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/restaurant_img"
+            android:layout_width="117dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/sal" />
+
+        <ImageView
+            android:id="@+id/ic_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="325dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <ImageView
+            android:id="@+id/ic_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+        <ImageView
+            android:id="@+id/restaurant_location_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/restaurant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="5dp"
+            android:text="Evette resturant"
+            android:textColor="#222222"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/restaurant_address"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="35dp"
+            android:text="Evette resturant"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/meals"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="76dp"
+            android:text="23 Meal" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="14dp"
+            android:layout_height="11dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/meal" />
+
+
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="55dp"
+            android:maxHeight="48dp"
+            android:minHeight="48dp"
+            android:progressBackgroundTint="#B6B6B6"
+            android:progressTint="#E6D643"
+            android:rating="2.5"
+            android:secondaryProgressTint="#E6D643" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

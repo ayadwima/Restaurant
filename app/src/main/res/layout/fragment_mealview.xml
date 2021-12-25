@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F6F6F6">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/res"
+        android:scaleType="centerCrop"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        android:layout_marginTop="230dp"
+       >
+
+
+        <TextView
+                    android:id="@+id/mealName"
+                    android:layout_width="188dp"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="198dp"
+                    android:layout_marginBottom="428dp"
+                    android:text="Dulex Thail - Veg"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
+                    android:background="#e1e1e1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mealName" />
+
+                <TextView
+                    android:id="@+id/mealName4"
+                    android:layout_width="396dp"
+                    android:layout_height="182dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="232dp"
+                    android:paddingLeft="20dp"
+                    android:text="The stevia plant contains a compound known as steviol which, when extracted, has 300 times the sweetness of sugar while having minimal impact on blood sugar The stevia plant contains a compound known as steviol which, when extracted, has 300 times the sweetness of "
+                    android:textColor="#222222"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="200dp"
+        android:background="#34AA37"
+        android:text="20.00$"
+        android:textColor="#FFFFFF" />
+
+
+</FrameLayout>

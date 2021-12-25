@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/img_add_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/background"
+        app:srcCompat="@drawable/ic_photo" />
+
+    <EditText
+        android:id="@+id/tvRes"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Enter Restaurant Name"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Enter Restaurant Address"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/restaurant_lat"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Enter Restaurant Lat"
+        android:padding="5dp"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/restaurant_lng"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Enter Restaurant Lng"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_save_restaurant"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="Add"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_edit_restaurant"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="Edit"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

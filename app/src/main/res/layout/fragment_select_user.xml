@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SelectUserFragment"
+    android:background="@drawable/select_user">
+
+    <ImageView
+        android:id="@+id/img_chef"
+        android:layout_width="90dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="508dp"
+        android:src="@drawable/chef"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/boogaloo"
+        android:text="Chef"
+        android:textColor="#717171"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_chef" />
+
+    <ImageView
+        android:id="@+id/img_customer"
+        android:layout_width="90dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="508dp"
+        android:src="@drawable/customer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/boogaloo"
+        android:text="Customer"
+        android:textColor="#717171"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_chef" />
+</androidx.constraintlayout.widget.ConstraintLayout>

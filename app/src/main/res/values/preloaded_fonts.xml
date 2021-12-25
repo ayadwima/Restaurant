@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array>
+        <item>@font/boogaloo</item>
+    </array>
+    <array>
+        <item>@font/aladin</item>
+    </array>
+    <array>
+        <item>@font/chela_one</item>
+    </array>
+</resources>
